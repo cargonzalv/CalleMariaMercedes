@@ -57,7 +57,7 @@ jQuery(function($) {
             modalHtml += "<div class='container'>";
             modalHtml += "<span class='icons iconscircle-cross close-icon'></span>";
             modalHtml += "<div class='carouselGallery-scrollbox' style='max-height:"+maxHeight+"px'><div class='carouselGallery-modal-image'>";
-            modalHtml += "<img src='"+imagepath+"' alt='carouselGallery image' data-toggle='magnify' id='imageeid'>";
+            modalHtml += "<img class = 'lazy' src='"+imagepath+"' alt='carouselGallery image' data-toggle='magnify' id='imageeid'>";
             modalHtml += "</div>";
             modalHtml += "<div class='carouselGallery-modal-text'>";
             modalHtml += "<span class='carouselGallery-modal-username'><a href='"+postURL+"'>"+username+"</a> </span>"
